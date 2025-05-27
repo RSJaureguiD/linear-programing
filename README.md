@@ -46,20 +46,6 @@ En esas condiciones, ¿cuántas mesas y sillas se deben fabricar mensualmente pa
     - Tiempo de la máquina C: $20x_1 \leq 6600$
     - Relación entre mesas y sillas: $x_2 = 6x_1$
 
-## Desarrollo del problema
-
-Para poder alimentar el algoritmo de programación lineal vamos a definir las ecuaciones de las restricciones:
-
-$$
-\begin{array}{lllllllllll}
-8x_1 & + 2x_2 & + x_3 & + 0 & + 0 & 
-+ 0 &= 7200 \\
-0 & + 6x_2 & + 0 & + x_4 & + 0 & +0 &= 10800 \\
-20x_1 & + 0 & + 0 & + 0 & + x_5 & + 0 &= 6600 \\
-6x_1 & - x_2 & + 0 & + 0 & + 0 & + x_6 &=0
-\end{array}
-$$
-
 # Programa
 
 ## Requerimientos
